@@ -16,16 +16,18 @@
 
 MLFLOW_TRACKING_URI=https://dagshub.com/sheetalgat-hubGit/Chest-Cancer-Classification-ML-Flow-DVC.mlflow
 MLFLOW_TRACKING_USERNAME=sheetalgat-hubGit
-MLFLOW_TRACKING_PASSWORD=ba0acb0afe77309e57b59eb42402a42d625db7a3
+MLFLOW_TRACKING_PASSWORD=cfd855ba71d40aa6fa36de270177e07a787ba1bc
 python script.py
 
 Run this to export as env variables:
 
 export MLFLOW_TRACKING_URI=https://dagshub.com/sheetalgat-hubGit/Chest-Cancer-Classification-ML-Flow-DVC.mlflow
 export MLFLOW_TRACKING_USERNAME=sheetalgat-hubGit
-export MLFLOW_TRACKING_PASSWORD=ba0acb0afe77309e57b59eb42402a42d625db7a3
+export MLFLOW_TRACKING_PASSWORD=cfd855ba71d40aa6fa36de270177e07a787ba1bc
 
-
+$env:MLFLOW_TRACKING_URI = "https://dagshub.com/sheetalgat-hubGit/Chest-Cancer-Classification-ML-Flow-DVC.mlflow"
+$env:MLFLOW_TRACKING_USERNAME = "sheetalgat-hubGit"
+$env:MLFLOW_TRACKING_PASSWORD = "cfd855ba71d40aa6fa36de270177e07a787ba1bc"
 About MLflow & DVC
 MLflow
 
