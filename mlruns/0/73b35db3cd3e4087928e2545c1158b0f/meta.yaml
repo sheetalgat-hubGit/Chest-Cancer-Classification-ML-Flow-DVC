@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/sheet/Downloads/OneDrive/Desktop/ML_Project/Chest-Cancer-Classification-ML-Flow-DVC/mlruns/0/73b35db3cd3e4087928e2545c1158b0f/artifacts
+end_time: 1769338115570
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 73b35db3cd3e4087928e2545c1158b0f
+run_name: inquisitive-croc-540
+run_uuid: 73b35db3cd3e4087928e2545c1158b0f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769338067512
+status: 4
+tags: []
+user_id: sheetal
