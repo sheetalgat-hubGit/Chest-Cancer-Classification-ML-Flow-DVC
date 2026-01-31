@@ -1,8 +1,13 @@
-FROM python:3.8-slim-buster
+FROM python:3.8-slim-bullseye
 
-RUN apt update -y && apt install awscli -y
+# Install basic tools and clean up
+RUN apt update -y && apt install -y groff less && apt clean
+
+# Install AWS CLI using pip (much more stable)
+RUN pip install --upgrade pip
+RUN pip install awscli
+
 WORKDIR /app
-
 COPY . /app
 RUN pip install -r requirements.txt
 
